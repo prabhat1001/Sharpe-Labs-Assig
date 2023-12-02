@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+# Sharpe Labs Assignment Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+This is a React web application, featuring seamless navigation with React Router, form input validation, error handling, and data visualization. Leveraging popular template libraries like Materialize and Tailwind, the project incorporates a clean and user-friendly design for enhanced user experience.
 
-In the project directory, you can run:
+![Home-eth](https://github.com/prabhat1001/Sharpe-Labs-Assig/assets/71027441/a83ca7f3-ea0b-4c34-ae4c-38b0383a6bc1)
 
-### `npm start`
+## Live Link
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Pages
 
-### `npm test`
+### Home Page
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The Home Page offers a creative and welcoming introduction to the application. Users can explore and navigate to other sections seamlessly using the provided navigation.
 
-### `npm run build`
+### Transaction Page
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+On the Transaction Page, users can input transaction details through a form. The form includes validation checks for the wallet address and amount.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Data Page
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The Data Page fetches data from the open-source API 'https://jsonplaceholder.typicode.com/posts'. The application filters posts to include only those with a user ID of 1. The filtered data is then visualized in a table format, where each row represents a post and each column displays different attributes such as ID, title, and body.
 
-### `npm run eject`
+Additionally, a pie chart is included to represent the number of posts written by user ID 1 out of the total posts. Data visualization is achieved using Recharts for an engaging and informative presentation.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Technologies Used
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **React JS:** The core framework for building the web application.
+- **React Router:** Enables seamless navigation between different pages.
+- **Axios/Fetch API:** Facilitates data retrieval from the open-source API.
+- **Recharts:** Empowers data visualization through dynamic charts and graphs.
+- **CSS:** Applied for custom styling, ensuring a visually appealing user interface.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Project Structure
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+The project follows a modular structure, with components dedicated to each page (Home, Transaction, Data). 
 
-## Learn More
+## Setup and Usage
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Clone the repository to your local machine:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   ```bash
+    git clone https://github.com/prabhat1001/Sharpe-Labs-Assig.git
+   ```
 
-### Code Splitting
+2. Navigate to the project directory:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+   ```bash
+   cd Sharpe-Labs-Assig
+   ```
 
-### Analyzing the Bundle Size
+3. Install dependencies:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+   ```bash
+   npm install
+   ```
 
-### Making a Progressive Web App
+4. Run the development server:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+   ```bash
+   npm start
+   ```
 
-### Advanced Configuration
+5. Open your web browser and visit [http://localhost:3000](http://localhost:3000) to explore the Project.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feel free to customize and extend the application based on your specific requirements and preferences. Happy coding!
