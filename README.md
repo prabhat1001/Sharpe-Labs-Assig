@@ -69,4 +69,7 @@ The project follows a modular structure, with components dedicated to each page 
 5. Open your web browser and visit [http://localhost:3000](http://localhost:3000) to explore the Project.
 
 
-Feel free to customize and extend the application based on your specific requirements and preferences. Happy coding!
+Feel free to customize and extend the application based on your specific requirements and preferences. 
+<br/>
+
+Happy coding!
